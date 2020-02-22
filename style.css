@@ -1,0 +1,35 @@
+body{
+    font-family: 'Merriweather', ;
+    margin: 0;
+}
+.header{
+ background-image: url("images/header-bg.png");
+ padding-bottom: 20%;
+ display: inline-block;
+ background-repeat: no-repeat;
+}
+ 
+h1{
+ font-size: 2em;
+ color: black;
+}
+.half-width{
+ float:left;
+ width: 40%;
+ margin: 2%;
+ padding-left: 5%;
+}
+.half-width img{
+ width: 100%;
+}
+.blue-color{
+ color:blue;
+ font-size: 2em;
+}
+.hire-me-btn{
+ color: white;
+ background-color:tomato;
+ padding: 10px 15px;
+ border-radius: 20px;
+ text-decoration: none;
+}
