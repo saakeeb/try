@@ -19,6 +19,9 @@ h1{
  margin: 2%;
  padding-left: 5%;
 }
+a{
+    cursor: pointer;
+}
 .half-width img{
  width: 100%;
 }
@@ -32,4 +35,109 @@ h1{
  padding: 10px 15px;
  border-radius: 20px;
  text-decoration: none;
+ position: absolute;
 }
+.hire-me-btn:hover{
+    background:#6f00ff;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    padding-bottom: 20%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+
+}
+p{
+    color: black;
+    font-size: medium;
+}
+.download-cv-btn{
+    padding-top: 10%;
+    color: white;
+    background-color:tomato;
+    padding: 15px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    position: absolute;
+}
+.download-cv-btn:hover{
+    background:#6f00ff;
+}
+.work{
+    text-align: center;
+    padding: 0 70px 20% 0;
+    background: url(images/work.png);
+    background-size: cover;
+   
+}
+.work h1{
+    text-align: center;
+    font-size: 2em;
+}
+.work div{
+    width:33.33%;
+    float:left;
+    padding:40px 20px;
+    overflow:hidden;
+    box-sizing:border-box;
+    height:400px;
+}
+.work a img{
+    width: 100%;
+}
+
+.my-team{
+    text-transform:capitalize;
+    font-size:18px;
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 30%;
+}
+.team div{
+    text-align:center;
+    overflow:hidden;
+    color:white;
+    text-transform:capitalize;
+  
+  }
+  .column{
+    width:50%;
+    float:left;
+    overflow:hidden;
+    padding:30px 45px;
+    box-sizing:border-box;
+  }
+  .column:nth-child(n+1){
+    color:orangered;
+  }
+ 
+  .column img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+  }
+.footer-bg{
+    padding-bottom:10%;
+    background: url(images/footer-bg.png);
+    text-align: center;
+    padding-top: 10%;
+}
+.text{
+    margin-bottom:100px;
+}
+.message-btn{
+    
+    width:400px;
+    background:tomato;
+    text-align:center;
+    padding:30px 60px;
+    border-radius:40px;
+    color: white;
+    display: inline-block;
+
+}
+footer{
+    text-align: center;
+}
+ 
