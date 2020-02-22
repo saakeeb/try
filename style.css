@@ -125,6 +125,10 @@ p{
 }
 .text{
     margin-bottom:100px;
+    
+}
+.footer-bg h2{
+    color: tomato;
 }
 .message-btn{
     
